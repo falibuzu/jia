@@ -1,0 +1,27 @@
+.top_bg{ height: 186px; background: url(../images/bg_01.png) center top}
+.top_box{}
+
+.w120{width:1200px; margin: auto}
+.tp_l{ float:left;    padding-top: 20px;}
+.tp_r{ float:right}
+.tp_list{}
+.tp_list a{}
+.tp_list a.on{}
+
+.search{background: url(../images/search_bg.png); width: 320px; height: 32px}
+.search .sch_btn{ background: url(../images/search_btn.png); width: 23px; height: 23px; float: right}
+.search input[type="text"]{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
