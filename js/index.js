@@ -5,14 +5,14 @@ $(function () {
 /*
 $(".tp_list a").mouseenter(function(){
 	$(this).addClass("on").siblings().removeClass("on");			
-})
-$(".tp_list a").hover(function(){
-	$(this).addClass("on");
+})*/
+$(".tp_list li").hover(function(){
+	$(this).find(".sub_menu").show();
 	},function(){
-	$(this).removeClass("on")	
+	$(this).find(".sub_menu").hide();	
 })
 
-*/
+
 
 
 $(".ico_play li").hover(function(){
