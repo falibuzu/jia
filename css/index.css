@@ -166,12 +166,13 @@ z-index: 999;
 	
 .box_b_r{ }
 	
-.list_ico1{padding: 20px 0 0 20px;}
-.list_ico1 li{ background:url(../images/ico_bg.png); width:73px; height:73px; float:left; text-align:center; margin: 20px 13px;}
-.list_ico1 i{ display: block;height: 42px;line-height: 42px;}	
-.list_ico1 p{font-size: 16px;}		
-.list_ico1 i img{ height:26px;}	
 
+
+.list_ico5{padding: 20px 0 0 20px;}
+.list_ico5 li{ background:url(../images/ico_bg2.png); width:218px; height:73px; float:left; text-align:center; margin: 20px 13px;}
+.list_ico5 i{ display: block;height: 42px;line-height: 42px;}	
+.list_ico5 p{font-size: 16px;}		
+.list_ico5 i img{ height:26px;}	
 
 .box_c_r{border: 1px solid #e5e5e5; width:546px;height: 344px;}
 
@@ -563,7 +564,11 @@ z-index: 999;
     margin-left: 22px;
     line-height: 30px;
     background-color: #f5f5f5;
+
 }
+
+
+
 .share{
     top: 18%;
     margin-left: 610px;
