@@ -113,6 +113,10 @@
 <ul class="hiSlider ad_jdt">
 		        <li data-title="11111" class="hiSlider-item"><img src="images/img1.jpg" alt="11111"></li>
 		        <li data-title="22222" class="hiSlider-item"><img src="images/img1.jpg" alt="22222"></li>
+                 <li data-title="333" class="hiSlider-item"><img src="images/img1.jpg" alt="333333"></li>
+		        <li data-title="444" class="hiSlider-item"><img src="images/img1.jpg" alt="444444"></li>
+                 <li data-title="5555" class="hiSlider-item"><img src="images/img1.jpg" alt="55555"></li>
+		      
 
 	</ul>
 
@@ -120,7 +124,20 @@
 </div>
 </div>
 
-<div class="w120 mgt10 ad_box"><img src="images/ad_05.jpg" class="fr" style="margin-right:0;"><img src="images/ad_03.jpg" class="fl"><img src="images/ad_08.jpg" width="584" height="69"><img src="images/ad_10.jpg" width="268" height="69"><img src="images/ad_12.jpg" width="268" height="69"></div>
+<div class="w120 mgt10 ad_box">
+
+    <img src="images/ad_05.jpg" class="btn_r" style="margin-right:0;"><img src="images/ad_03.jpg" class="btn_l">
+    
+    <div class="move_box">
+        <div class="ad_cnt">
+        <img src="images/ad_08.jpg" width="584" height="69"><img src="images/ad_10.jpg" width="268" height="69"><img src="images/ad_12.jpg" width="268" height="69">
+        </div>
+        <div class="ad_cnt">
+        <img src="images/ad_08.jpg" width="584" height="69"><img src="images/ad_10.jpg" width="268" height="69"><img src="images/ad_12.jpg" width="268" height="69">
+        </div>
+    
+    </div>
+</div>
 
 
 <div class="w120 mgt10 ">
@@ -160,9 +177,12 @@
 
 
 <div class="box_b_l fl ">
-	<ul class="new_nav">
+	<ul class="new_nav jianc">
       <li class="on">政策文件</li>
-      <li>价格监测</li>
+      <li style=" position:relative">价格监测
+      
+      <dl class="new_nav_s"><dd class="on">价格动态</dd><dd>价格行情</dd></dl>
+      </li>
     </ul>
     <div class="change_s">
      <ul class="news_list2 change_box">
@@ -171,7 +191,23 @@
           <li><span class="date">[03-26]</span><a href="#">· 省发改委宋立民副主任来我市调研一季度经济运行情况 </a></li>
           <li><span class="date">[03-26]</span><a href="#">· 我市10个小镇列入省第一批特意意色小镇名单 </a></li>
      </ul>
-     <ul class="news_list2 change_box none">22222</ul>
+     <div class="change_box none new_s_box">
+         <ul class="news_list2 change_box2">
+              <li><span class="date">[03-26]</span><a href="#">· 价格动态 </a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 我委召开党组会学习贯彻市第意意十次党代会精神 </a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 省发改委宋立民副主任来我市调研一季度经济运行情况 </a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 我市10个小镇列入省第一批特意意色小镇名单 </a></li>
+         </ul>     
+     	
+        
+         <ul class="news_list2 change_box2 none">
+              <li><span class="date">[03-26]</span><a href="#">· 价格行情</a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 我委召开党组会学习贯彻市第意意十次党代会精神 </a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 省发改委宋立民副主任来我市调研一季度经济运行情况 </a></li>
+              <li><span class="date">[03-26]</span><a href="#">· 我市10个小镇列入省第一批特意意色小镇名单 </a></li>
+         </ul> 
+        
+     </div>
      
      
      </div>
@@ -279,21 +315,24 @@
 
 
 
-<div class="w120 mgt10 links">&nbsp;
-<img src="images/links.png" width="35" height="35">&emsp;友情链接 
-<select name="">
-  <option>国家及各省发改委网站</option>
-</select>
- <select name="">
-  <option>省内发改委网站</option>
-</select>
+<div class="w120 mgt10 links" style="overflow: initial;">
 
- <select name="">
-  <option>市政府及有关部门</option>
-</select>
- <select name="">
-  <option>相关链接</option>
-</select>
+<div class="fl">
+<img src="images/links.png" width="35" height="35">&emsp;友情链接 </div>
+
+<ul class="lk_nav">
+	<li><b>省内发改委网站</b>
+    <div class="lk_box">
+    <a href="#">办公室政策法规处规划处</a><a href="#">综合处</a><a href="#">体改处</a><a href="#">投资处</a><a href="#">服务业发展处</a><a href="#">外经处</a><a href="#">地区处</a></div>
+    </li>
+    <li><b>相关链接</b>
+    <div class="lk_box"><a href="#">办</a></div>
+    </li>
+    <li><b>国家及各省发改委网站</b>
+    <div class="lk_box"><a href="#">办222222222222</a></div>
+    </li>
+</ul>
+ 
 </div>
 
 
@@ -314,14 +353,14 @@
 
 <div class="pxt">
 
-主办单位：石家庄市发展和改革委员会    冀公网安备 13010202001893号  技术支持：石家庄市发展和改革委员会信息中心    冀ICP备10003992号 点击总量:312367</div>
+主办单位：石家庄市发展和改革委员会    冀公网安备 13010202001893号  技术支持：石家庄市发展和改革委员会信息中心    冀ICP备10003992号 <span style="top: 0;position: absolute;right: -100px;">点击总量:312367</span></div>
 
 </div>
 </div>
 
-<div class="share"> <a href="#"><img src="images/share_01.jpg"></a><a href="#"><img src="images/share_02.jpg"></a><a href="#"><img src="images/share_03.jpg"></a><a href="#"><img src="images/share_04.jpg"></a></div>
+<div class="share"> <a href="#"><img src="images/share_01.jpg"></a><a href="#"><img src="images/share_02.jpg"></a><a href="#"><img src="images/share_03.jpg"></a><a href="#"><img src="images/share_04.jpg" style=" margin:0"></a> <a class="close"></a></div>
 
-
+<div class="share2"> <a href="#"><img src="images/img9.jpg"></a><a class="close"></a></div>
 
 
 
