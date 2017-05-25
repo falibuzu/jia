@@ -24,10 +24,14 @@ input, label, select { vertical-align: middle; font: 100% Tahoma }
 .cr_blu{ color:#015293}
 
 .mgt10{margin-top:10px}
-
+.mgt40{margin-top:40px}
 .none{ display:none}
 
 
+.foot { }
+.foot .links_x { padding-left: 4px; margin-left: 22px; line-height: 35px; /* padding-bottom: 4px; */ border-bottom: 1px solid #E3E3E3; }
+.foot .links_x a { margin: 0 12px; font-size: 14px; color:#015293; }
+.foot .pxt { margin-top: 6px; padding: 0 12px; margin-left: 22px; line-height: 30px; background-color: #f5f5f5;     position: relative;}
 
 
 

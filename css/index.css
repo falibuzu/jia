@@ -31,7 +31,7 @@
 .on .ic5, .tp_list a:hover .ic5 { background-position: -288px -98px; }
 .on .ic6, .tp_list a:hover .ic6 { background-position: -360px -98px; }
 .on .ic7, .tp_list a:hover .ic7 { background-position: -432px -98px; }
-.search { margin: 0 0 0 176px;/* text-align: right; */ background: url(../images/search_bg.png); width: 320px; height: 32px; clear: both; line-height: 32px; }
+.search { margin: 22px 0 0 176px;;/* text-align: right; */ background: url(../images/search_bg.png); width: 320px; height: 32px; clear: both; line-height: 32px; }
 .search .sch_btn { margin: 4px; background: url(../images/search_btn.png); width: 23px; height: 23px; float: right }
 .search input[type="text"] { background: none; border: none; width: 263px; padding-left: 12px; }
 .bg2 { background:url(../images/bg_02.png) no-repeat top center; width:100%; position: absolute; top:180px; height:457px; ; z-index:-1 }
@@ -114,10 +114,6 @@
 .list_ico4 i img { height:24px; }
 .links { height:57px; line-height:57px; font-size:20px; border-top:5px solid #015293; border-bottom:1px solid #e3e3e3; position:relative}
 
-.foot { }
-.foot .links_x { padding-left: 4px; margin-left: 22px; line-height: 35px; /* padding-bottom: 4px; */ border-bottom: 1px solid #E3E3E3; }
-.foot .links_x a { margin: 0 12px; font-size: 14px; color:#015293; }
-.foot .pxt { margin-top: 6px; padding: 0 12px; margin-left: 22px; line-height: 30px; background-color: #f5f5f5;     position: relative;}
 .share { z-index: 99999; width: 90px; top: 18%; position: fixed; right: 5px; padding-bottom:11px }
 .share img { margin-bottom: 10px; border: 1px solid #E3E3E3; }
 .weather { text-align:center; padding-top:14px }

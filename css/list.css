@@ -1,0 +1,100 @@
+
+.top_bg { height: 164px; background: url(../images/bg_01.png) center top; border-bottom: 8px solid #015293;}
+.top_box { /* height: 66px; */position: relative; }
+.tp_l { float:left; padding-top: 35px; }
+
+.tp_l2 { float:left; padding-top: 45px; padding-left: 10px;}
+
+.box-r{ width:950px;float:right}
+.box-l{ width:224px; border:1px solid #e5e5e5; border-top: none;float:left}
+
+.d_list{}
+.d_list li{}
+.d_list li .t1{ background-image:url(../images/list_point.png); background-repeat:no-repeat; background-position: 135px center; height:54px; line-height:54px; color:#015293; font-size:18px; padding-left:28px; background-color:#eef7ff; border-bottom:#e5e5e5 1px solid;border-top:#e5e5e5 1px solid}
+
+
+.d_list li .lsz{}
+.d_list li .lsz a{
+    height: 34px;
+    padding-left: 38px;
+    display: block;
+    line-height: 34px;
+    /* text-align: center; */
+    font-size: 14px;
+    color: #015293;
+}
+.search_box{ padding: 20px 0 20px 24px;background:#eef7ff}
+.search_box input[type="text"]{ color: #676767;padding:0 21px; height:34px; line-height:34px; border:1px solid #e5e5e5}
+.search_box .tw1{
+    width: 20%;
+}
+.search_box .tw2{
+    width: 40%;
+}
+.search_box select{
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #e5e5e5;
+    width: 104px;
+}
+.search_box p{
+    padding: 4px 0;
+}
+.search_box input[type="button"]{
+    height: 34px;
+    line-height: 34px;
+    border: none;
+    color: #fff;
+    width: 106px;
+}
+.search_box .search_btn{
+    background-color: #288cc5;
+}
+.search_box .search_btn2{
+    background-color: #a6acb2;
+}
+
+
+.table1{
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    width: 100%;
+    border-top: none;
+}
+.table1 th{
+    height: 40px;
+    color: #fff;
+    background-color: #015293;
+    font-size: 14px;
+}
+.table1 td{
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+
+
+.linex{
+    width: 90%;
+    height: 1px;
+    border-top: 1px #E5E5E5 dashed;
+    padding-top: 12px;
+    margin-top: 12px;
+}
+.paage{
+    padding-bottom: 12px;
+}
+.paage a{ padding: 0 14px;display:inline-block;border: 1px solid #E5E5E5;margin: 0 3px;}
+.paage a.on{
+    background-color: #008ac8;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
