@@ -35,3 +35,11 @@ input, label, select { vertical-align: middle; font: 100% Tahoma }
 
 
 
+.paage{
+    padding-bottom: 12px;
+}
+.paage a{ padding: 0 14px;display:inline-block;border: 1px solid #E5E5E5;margin: 0 3px;}
+.paage a.on{
+    background-color: #008ac8;
+    color: #fff;
+}
