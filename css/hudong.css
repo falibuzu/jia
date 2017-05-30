@@ -1,4 +1,4 @@
-.box-r{ background-color: #eef7ff;width: 420px;float:right;}
+.box-r{ padding-bottom: 22px;background-color: #eef7ff;width: 420px;float:right;}
 .box-l{ width: 704px; border-right: 1px solid #e5e5e5; float:left;padding-right: 14px;}
 
 
@@ -68,3 +68,20 @@
     margin-top: 12px;
     border-top: 1px solid #C1C1C1;
 }
+.dc2{
+    padding: 8px  22px;
+}
+.dc2 p{
+    padding: 5px 0;
+}
+.dc2 p img{ margin-right:14px}
+.dc2 a{ color:#014a8f; font-weight:bold}
+
+.dc3{
+    padding: 8px 22px;
+}
+.dc3 p{
+    line-height: 28px;
+}
+.dc3 p img{ float: left;margin-right:14px}
+.dc3 strong{ color:#015293}

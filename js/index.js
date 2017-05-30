@@ -85,12 +85,6 @@ $(".close").click(function(){
 
 
 
-$(".lk_nav li").hover(function(){
-
-	$(this).find(".lk_box").show();
-	},function(){
-	$(this).find(".lk_box").hide();
-});
 
 
 

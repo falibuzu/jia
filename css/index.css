@@ -85,31 +85,7 @@
 
 .close{ background-image:url(../images/close.gif); width:11px; height:11px; position:absolute; right:0; bottom:0}
 .close:hover{ background-position: 11px 0}
-.lk_nav{
-    font-size: 16px;
-    float: left;
-    /* display: inline-block; */
-    padding-left: 20px;
-}
-.lk_nav li{ margin-right: 22px;float:left; padding-right: 22px; background: url(../images/sanjiao.gif) no-repeat right center; }
-.lk_box{display:none;
-    padding: 10px 1%;
-    border-top: 1px solid #E5E5E5;
-    background-color: #fff;
-    width: 98%;
-    left: 0;
-    position: absolute;
-    top: 44px;
-}
-.lk_box a{
-    color: #737373;
-    line-height: 32px;
-    width: 20%;
-    display: block;
-    margin: 0;
-    float: left;
-}
-.lk_box a:hover{ color:#F03}
+
 
 .new_nav_s{
 

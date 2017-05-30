@@ -68,8 +68,32 @@ input, label, select { vertical-align: middle; font: 100% Tahoma }
 
 .position{ font-size: 14px;height:50px; line-height:50px;}
 .position a{font-size: 14px;}
+.links { height:57px; line-height:57px; font-size:20px; border-top:5px solid #015293; border-bottom:1px solid #e3e3e3; position:relative}
 
-
+.lk_nav{
+    font-size: 16px;
+    float: left;
+    padding-left: 20px;
+}
+.lk_nav li{ margin-right: 22px;float:left; padding-right: 22px; background: url(../images/sanjiao.gif) no-repeat right center; }
+.lk_box{display:none;
+    padding: 10px 1%;
+    border-top: 1px solid #E5E5E5;
+    background-color: #fff;
+    width: 98%;
+    left: 0;
+    position: absolute;
+    top: 44px;
+}
+.lk_box a{
+    color: #737373;
+    line-height: 32px;
+    width: 20%;
+    display: block;
+    margin: 0;
+    float: left;
+}
+.lk_box a:hover{ color:#F03}
 .foot { }
 .foot .links_x { padding-left: 4px; margin-left: 22px; line-height: 35px; /* padding-bottom: 4px; */ border-bottom: 1px solid #E3E3E3; }
 .foot .links_x a { margin: 0 12px; font-size: 14px; color:#015293; }
