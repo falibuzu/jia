@@ -6,7 +6,7 @@
 .tp_l2 { float:left; padding-top: 45px; padding-left: 10px;}
 
 .box-r{ width:950px;float:right}
-.box-l{ width:224px; border:1px solid #e5e5e5; border-top: none;float:left}
+.box-l{ background-color: #fff;width:224px; border:1px solid #e5e5e5; border-top: none;float:left}
 
 .d_list{}
 .d_list li{}
@@ -56,6 +56,7 @@
 
 
 .table1{
+    background-color: #fff;
     border: 1px solid #e5e5e5;
     border-collapse: collapse;
     width: 100%;
@@ -75,13 +76,7 @@
 
 
 
-.linex{
-    width: 90%;
-    height: 1px;
-    border-top: 1px #E5E5E5 dashed;
-    padding-top: 12px;
-    margin-top: 12px;
-}
+
 
 .box_f{}
 .tt_f{}

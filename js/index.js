@@ -6,11 +6,6 @@ $(function () {
 $(".tp_list a").mouseenter(function(){
 	$(this).addClass("on").siblings().removeClass("on");			
 })*/
-$(".tp_list li").hover(function(){
-	$(this).find(".sub_menu").show();
-	},function(){
-	$(this).find(".sub_menu").hide();	
-})
 
 
 

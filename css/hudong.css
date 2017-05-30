@@ -1,0 +1,70 @@
+.box-r{ background-color: #eef7ff;width: 420px;float:right;}
+.box-l{ width: 704px; border-right: 1px solid #e5e5e5; float:left;padding-right: 14px;}
+
+
+.content{    padding: 22px 24px;    border: 1px solid #e5e5e5;    background: #fff;    overflow: hidden;     min-height: 300px;}
+
+.tt_f{ height:38px; line-height: 34px;border-bottom: 1px solid #e5e5e5;}
+.tt_f h3{ display: inline-block;font-size:21px; padding:0 8px; border-bottom: 4px solid #015293;}
+
+.m_r{ float:right}
+.more{}
+
+.list_hd{}
+.list_hd li{
+    padding-bottom: 12px;
+    border-bottom: 1px #E5E5E5 dashed;
+}
+.t_p{
+    padding: 14px 0;
+    font-size: 16px;
+}
+
+.ly{
+    background-color: #eef7ff;
+    display: inline-block;
+    color: #015293;
+    padding: 0 6px;
+}
+.date{
+    float: right;
+    color: #666;
+}
+
+
+.list_hd p{ line-height:20px}
+
+.list_d{
+    padding-top: 22px;
+}
+.list_d li{
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.dizhi{
+    overflow: hidden;
+}
+.dizhi ul{
+    float: right;
+    width: 320px;
+}
+.dizhi ul li{ font-size: 14px;background: url(../images/hz_ico_p.gif) no-repeat left center; line-height: 25px;padding-left: 20px;}
+.zf_x{
+    padding: 18px;
+    display: block;
+}
+.lx_tt{
+    font-size: 21px;
+    color: #015293;
+    padding: 12px 22px;
+}
+.ico1{
+    padding: 8px 0 0 22px;
+}
+.linec{
+    margin:  0 12px;
+    padding-top: 12px;
+    margin-top: 12px;
+    border-top: 1px solid #C1C1C1;
+}
