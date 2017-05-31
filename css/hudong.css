@@ -8,7 +8,7 @@
 .tt_f h3{ display: inline-block;font-size:21px; padding:0 8px; border-bottom: 4px solid #015293;}
 
 .m_r{ float:right}
-.more{}
+.more{ float:right}
 
 .list_hd{}
 .list_hd li{
@@ -85,3 +85,185 @@
 }
 .dc3 p img{ float: left;margin-right:14px}
 .dc3 strong{ color:#015293}
+
+
+
+
+.w450{width: 415px;}
+.w730{width:705px}
+
+
+.ico_l{
+    padding-top: 40px;
+    padding-left: 10px;
+    float: left;
+}
+.ico_l li{ border-radius: 12px;margin-bottom: 20px;width: 331px; height:177px}
+.ico_l .ico{padding: 26px 0;text-align: center;}
+.ico_l p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.bc_1{ background: #feb040}
+.bc_2{ background: #fe787f}
+.bc_3{ background: #52bc8b}
+.bc_4{ background: #9666bc}
+.bc_5{ background: #3078c0}
+
+
+
+
+.ico_r{ padding-top: 40px;float:right}
+.ico_r li{ border-radius: 12px;margin-bottom: 20px;width:337px; height: 111px;}
+.ico_r .ico{float: left;padding: 32px 22px 0 26px;/* text-align: center; */}
+.ico_r p{
+    padding-top: 28px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+}
+.list_ico4 { margin-top: 40px; /* float: right; */ overflow: hidden; padding: 0; border-bottom: 1px solid #989898;}
+.list_ico4 li { width: 33%;/* width:73px; */ float: left;/* height:73px; */ /* float:left; */ text-align:center; margin-bottom: 8px; }
+.list_ico4 b { display: block; height: 59px; line-height: 59px; background:url(../images/ico_xbg.png) no-repeat center center }
+.list_ico4 p { font-size: 14px; line-height: 30px; }
+.list_ico4 i{ margin-top: 16px;height:26px; width: 26px; display: inline-block}
+
+.icx1{ background-image: url(../images/ico_c1.png)}
+.icx2{ background-image: url(../images/ico_c2.png)}
+.icx3{ background-image: url(../images/ico_c3.png)}
+
+.list_ico4 li.on b{ background:url(../images/ico_xbg_on.png) no-repeat center center}
+.list_ico4 li.on i{}
+
+.list_ico4 li.on .icx1{ background-image: url(../images/ico_c1_on.png)}
+.list_ico4 li.on .icx2{ background-image: url(../images/ico_c2_on.png)}
+.list_ico4 li.on .icx3{ background-image: url(../images/ico_c3_on.png)}
+.list_y{ padding-top: 12px;}
+.list_y ul{}
+.list_y li{
+    padding-left: 12px;
+    background: url(../images/p.gif) no-repeat  center left;
+    line-height: 32px;
+}
+.list_y li a{
+    font-size: 14px;
+}
+.list_y li.morexz{ background: none; text-align: right;}
+
+.list_y li.morexz a{color:#015293}
+
+.list_u{
+    overflow: hidden;
+}
+.list_u li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-right: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+.ico_u { background:url(../images/ico_bg.png); width:73px; height:73px; float:left; text-align:center; margin: 10px 13px 0 0; }
+.ico_u i { display: block; height: 42px; line-height: 42px; }
+.ico_u p { font-size: 16px; }
+.ico_u i img { height:26px; }
+.bxr{ padding: 18px 0 0 0;float: right}
+.bxr dd{
+    padding-left: 12px;
+    background: url(../images/p.gif) no-repeat  center left;
+    line-height: 32px;
+}
+.bxr dd a{
+    text-overflow: ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+    display: block;
+    font-size: 14px;
+    width: 190px;
+}
+
+.list_n{
+    padding: 10px 4px;
+    overflow: hidden;
+}
+.list_n li{
+    font-size: 16px;
+    background-color: #eef7ff;
+    float: left;
+    width: 190px;
+    height: 46px;
+    margin: 5px;
+    border-radius: 8px;
+    line-height: 46px;
+}
+.list_n li.on{
+    background-color: #015293;
+}
+
+.list_n i{
+    display: block;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 6px 6px 0 12px;
+}
+.list_n p{
+    color: #015293;
+    float: left;
+    padding-left: 8px;
+}
+
+.icn1{background-image: url(../images/icoy_01.png)}
+.icn2{background-image: url(../images/icoy_02.png)}
+.icn3{background-image: url(../images/icoy_03.png)}
+.icn4{background-image: url(../images/icoy_04.png)}
+
+
+
+.list_n li.on .icn1{background-image: url(../images/icoy_01_on.png)}
+.list_n li.on .icn2{background-image: url(../images/icoy_02_on.png)}
+.list_n li.on .icn3{background-image: url(../images/icoy_03_on.png)}
+.list_n li.on .icn4{background-image: url(../images/icoy_04_on.png)}
+.list_n li.on p{ color:#fff}
+
+
+.search_box{
+    text-align: center;
+}
+
+
+.search_box select { width: 76px;height: 30px; line-height: 30px; padding: 0 4px; border: 1px solid #e5e5e5; }
+.search_box .search_btn { height: 30px; display: inline-block; background-color: #EEF7FF; color: #015293; line-height: 30px; padding: 0 14px; }
+
+.list_i{
+    font-size: 14px;
+    margin-top: 10px;
+    width: 94%;
+}
+.list_i th{
+    line-height: 28px;
+    color: #fff;
+    background-color: #015293;
+}
+.list_i .dat{
+    width: 94%;
+    line-height: 20px;
+    background-color: #ff9f2e;
+    text-align: center;
+    color: #fff;
+}
+.list_i tr{line-height: 34px;}
+.list_i td{}
+.list_i tr.odd{ background-color:#eef7ff }
+
+
+
+
+
+
+
+
