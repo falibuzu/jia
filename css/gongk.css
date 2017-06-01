@@ -1,0 +1,87 @@
+
+.content{    padding: 22px 24px;    border: 1px solid #e5e5e5;    background: #fff;    overflow: hidden;     min-height: 300px;}
+	
+.tt_f h3{ color:#015293}	
+
+.wr{ margin-top: 14px;border-left: #E5E5E5 1px solid;width:300px}
+.wl{width:830px}
+
+
+.news_list{
+    padding: 20px 0;
+}
+.news_list li { line-height: 34px; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow: hidden; }
+.news_list li .date { color: #7f7f7f; float:right }
+.news_list a { font-size:16px; }
+
+.list_gk{
+    padding: 14px 0 0 28px;
+}
+.list_gk li{
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.list_gk li i{
+    float: left;
+    background-color: #c5c9ca;
+    width: 60px;
+    display: block;
+    background-position: center center;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+.list_gk li a{display: block;
+    width: 177px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background-color: #167ec7;
+    color: #fff;
+    font-size: 16px;
+}
+.list_gk li a:hover{    background-color: #1C679C;}
+.icx1{ background-image: url(../images/ico_g_01.png)}
+.icx2{ background-image: url(../images/ico_g_02.png)}
+.icx3{ background-image: url(../images/ico_g_03.png)}
+.icx4{ background-image: url(../images/ico_g_04.png)}
+.icx5{ background-image: url(../images/ico_g_05.png)}
+
+
+.tbx{
+    border: 1px solid;
+    border-color: #fff #fff #dadada #dadada;
+    width: 100%;
+}
+.tbx td{
+    position: relative;
+    border: 1px solid;
+    border-color: #dadada #dadada #fff #fff;
+    width: 25%;
+    height: 168px;
+    text-align: center;
+}
+.tbx a{
+    background-color: #f9f9f9;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #167ec7;
+}
+.tbx a:hover{
+    background-color: #E2E2E2;
+}
+.tbx img{
+    
+padding-top: 34px;
+}
+
+.tbx p{
+    
+padding-top: 4px;
+    
+font-size: 16px;
+}

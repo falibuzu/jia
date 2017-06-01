@@ -1,4 +1,4 @@
-html { _background: url(j); } /*注意这里可以让IE6 下不会抖动！！*/ 
+html { _background: url(j); } /*兼容ie6*/ 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, input, textarea, p, th, td { margin: 0; padding: 0; }
 a, input, button, select, textarea { outline: none }
 img { border: 0; vertical-align: middle; }
@@ -118,3 +118,7 @@ input, label, select { vertical-align: middle; font: 100% Tahoma }
     padding-top: 12px;
     margin-top: 12px;
 }
+
+.tt_f{ height:38px; line-height: 34px;border-bottom: 1px solid #bbb;}
+.tt_f h3{ display: inline-block;font-size:21px; padding:0 8px; border-bottom: 4px solid #015293;font-weight: normal;}
+.red{ color:#CC0003}
