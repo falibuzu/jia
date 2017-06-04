@@ -1,4 +1,4 @@
-html { _background: url(j); } /*ºÊ»›ie6*/ 
+html { _background: url(j); } /**/ 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, input, textarea, p, th, td { margin: 0; padding: 0; }
 a, input, button, select, textarea { outline: none }
 img { border: 0; vertical-align: middle; }
@@ -102,9 +102,11 @@ input, label, select { vertical-align: middle; font: 100% Tahoma }
 
 
 .paage{
+    clear: both;
     padding-bottom: 12px;
+    text-align: center;
 }
-.paage a{ padding: 0 14px;display:inline-block;border: 1px solid #E5E5E5;margin: 0 3px;}
+.paage a{ line-height: 32px;padding: 0 14px;display:inline-block;border: 1px solid #E5E5E5;margin: 0 3px;}
 .paage a.on{
     background-color: #008ac8;
     color: #fff;
