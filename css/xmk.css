@@ -61,8 +61,9 @@ body{ background-color: #eff2f7}
     color: #fff;
     padding: 0 42px;
 }
+.nav a:hover{ background：#333;background-color: #0873CA;}
 .nav a.on{
-    background: #006bc1;
+    background-color: #006bc1;
 }
 
 .dl_box_r{ width: 420px; background: #a3cbed;border-radius: 8px;overflow: auto;float:right}
