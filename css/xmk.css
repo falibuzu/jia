@@ -1,0 +1,162 @@
+html { _background: url(j); } /**/ 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, input, textarea, p, th, td { margin: 0; padding: 0; }
+a, input, button, select, textarea { outline: none }
+img { border: 0; vertical-align: middle; }
+em { font-style: normal }
+textarea { resize: none; }
+body { font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, Helvetica, Arial, sans-serif;  }
+html { overflow-x: hidden; zoom: 1; }
+a { text-decoration: none; color:#000 }
+/*a:hover { text-decoration: underline }*/
+ol, ul { list-style: none }
+h1, h2, h3, h4, h5 { font-size: 14px; }
+input, label, select { vertical-align: middle; font: 100% Tahoma }
+.clearfix:before, .clearfix:after { content: "."; display: table; height: 0; font-size: 0; line-height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom:1;}
+body{ background-color: #eff2f7}
+.fl { float: left; }
+.fr { float: right; }
+
+
+
+.w100{width:1000px; margin: auto; clear:both; overflow:hidden}
+
+.cr_blu{ color:#015293}
+
+.mgt10{margin-top:10px}
+.mgt40{margin-top:40px}
+.none{ display:none}
+
+
+
+.top_bg { height: 130px; background: url(../images/xmk_tp.jpg) center top; }
+.top_box { position: relative; }
+.tp_l { float:left;  }
+.tp_r { float:right }
+
+.tp_l h1{ margin: 0;line-height: 130px; font-size: 35px; color: #167ec7; padding-left: 23px}
+
+.search_box{ margin: 54px 0 0 0;line-height: 30px;width: 250px; height: 30px; border:1px solid #cacfd5; border-radius: 55px}
+.search_box input{
+    border: none;
+    background: none;
+    line-height: 28px;
+    padding-left: 8px;
+    width: 204px;
+}
+.search_box a{
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.nav_bg{ height:50px; background: #167ec7;}
+.nav{}
+.nav a{ background: url(../images/xmk_nav_point.gif) no-repeat 80% center ;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 42px;
+}
+.nav a.on{
+    background: #006bc1;
+}
+
+.dl_box_r{ width: 420px; background: #a3cbed;border-radius: 8px;overflow: auto;float:right}
+.dl_box_l{ border-radius: 8px;overflow: auto;background-color: #fff;width: 554px; float:left}
+
+.tt_f{ margin: 12px 21px;height:38px; line-height: 34px;border-bottom: 1px solid #bbb;}
+.tt_f h3{ display: inline-block;font-size:21px; padding:0 8px; font-weight: normal;margin-right: 20px;}
+.tt_f h3.on{color: #0077d6;border-bottom: 4px solid #015293;}
+
+.more{    float: right;}
+.news_list{
+    padding: 0 18px 20px 18px;
+}
+.news_list li { border-bottom:1px dashed #BDBDBD;line-height: 35px; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow: hidden; }
+.news_list li .date { color: #7f7f7f; float:right }
+.news_list a { font-size:16px; }
+
+.dl_box_r .tt{ line-height: 80px ; text-align: center; font-size: 25px}
+.dl_box_r .tt{ padding: 22px  0  8px 0;color: #fff;line-height: 40px; text-align: center; font-size: 25px}
+
+.dl_box_r .txt_box{
+    padding: 12px 20px;
+}
+.txt_in{
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    line-height: 44px;
+}
+
+.txt_in input[type="text"]{
+    font-size: 14px;
+    width: 328px;
+    border: none;
+}
+.dl_box_r .zc{
+    text-align: right;
+    margin: 12px 30px;
+}
+.dl_box_r .zc a{
+    color: #167ec7;
+    font-size: 18px;
+}
+.btn_bx{
+    padding-top: 12px;
+}
+.btn_bx a{
+    font-size: 18px;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    width: 43%;
+    margin-left: 20px;
+}
+
+.btn_blue{ background-color: #167ec7}
+.btn_orange{ background-color: #ff852b}
+.btn_blue:hover{ background-color: #125C90;}
+.btn_orange:hover{ background-color: #E4680D}
+
+.map_box{ background-color: #fff;text-align: center;border-radius: 4px;}
+.map_search{
+    overflow: hidden;
+    padding: 20px 0 20px 60px;
+}
+.map_search .txt_in{
+    float: left;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+}
+
+.map_search .txt_in input[type="text"]{width: 310px;}
+
+.map_search .btn_a{
+    font-size: 18px;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 0 12px;
+    /* margin-left: 20px; */
+    float: left;
+}
+#map{ height: 740px}
+
+
+
+.foot{ clear: both;background: #167ec7;text-align: center;line-height: 30px;font-size: 16px;color: #fff;padding: 30px;margin-top: 30px;}
+
+
+
+
