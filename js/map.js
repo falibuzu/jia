@@ -1,5 +1,29 @@
 $(function(){
 
+	
+	
+	
+	  $(".tt_f h3").each(function(index){
+       $(this).mouseenter(
+       function(){
+     $(".tt_f h3.on").removeClass("on");
+     $(this).addClass("on");
+     $(".news_list:visible").hide();
+     $(".news_list:eq(" + index + ")").show();
+/*mouseleave*/
+   })
+   })
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
  var myChart = echarts.init($('#map')[0]);
 
 	myChart.setOption(option = {
